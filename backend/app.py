@@ -56,6 +56,14 @@ async def chat(request: ChatRequest):
         # model_number = extract_model_number(message)
         part_number, model_number, order_id, ctx = resolve_entities(session_id, message)
         print("@@@@@@The session is this:", ctx)
+        # Reuse session context for follow-ups if the current turn has no explicit entities
+        if not order_id and ctx and ctx.get("active_order"):
+            order_id = ctx["active_order"]
+        if not part_number and ctx and ctx.get("active_part"):
+            part_number = ctx["active_part"]
+        if not model_number and ctx and ctx.get("active_model"):
+            model_number = ctx["active_model"]
+
         print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
 
 
@@ -82,6 +90,7 @@ async def chat(request: ChatRequest):
                     return ChatResponse(session_id=session_id, answer=value)
 
         elif user_intent == "transactions_order":
+            order_id = order_id or (ctx.get("active_order") if ctx else None)
             if not order_id:
                 return ChatResponse(session_id=session_id, answer="I might need an Order number here. To help with your order, please provide your Order ID (e.g., PSO1234).")
             msg = message.lower()
@@ -96,7 +105,7 @@ async def chat(request: ChatRequest):
                 else:
                     return ChatResponse(session_id=session_id, answer="Order not found.")
                 
-            elif "Cancel" in msg:
+            elif "cancel" in msg:
                 meta = transactions_search_order(order_id)
                 if meta and meta.get("status") == "order_placed":
                     return ChatResponse(session_id=session_id, answer=f"Order {order_id} cancellation request submitted.")

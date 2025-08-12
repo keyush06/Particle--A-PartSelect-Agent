@@ -39,10 +39,12 @@ def build_chain(memory = None, filter = None, namespace = "products"):
         namespace=namespace,
     )
 
-    ## filtering
-    print("vector_store.namespace:", getattr(vector_store, "namespace", None))
+    
+    # print("namespace:", namespace)
+    # print("vector_store.namespace:", getattr(vector_store, "namespace", None))
     # print("FILTER", filter)
-
+    
+    ## filtering
     retriever_kwargs = {"k": 10, "namespace": namespace} # added namespace here
     if filter:
         retriever_kwargs["filter"] = filter
@@ -60,7 +62,7 @@ def build_chain(memory = None, filter = None, namespace = "products"):
         max_tokens=None
     )
 
-    llm_not_to_be_used = ChatOpenAI(
+    llm_open = ChatOpenAI(
         model="gpt-4",
         temperature=0.0
     )
@@ -153,7 +155,7 @@ def build_chain(memory = None, filter = None, namespace = "products"):
     print("done before retreival chain")
     ## here is everything chained
     conv_chain = ConversationalRetrievalChain.from_llm(
-        llm=llm_not_to_be_used,
+        llm=llm, ## use llm_open for OpenAI GPT
         retriever=retriever,
         memory=memory,
         condense_question_prompt=CONDENSE_PROMPT,

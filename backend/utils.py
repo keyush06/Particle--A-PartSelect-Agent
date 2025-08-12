@@ -39,6 +39,14 @@ def resolve_entities(session_id, text):
     if not order and "this order" in text.lower():
         order = ctx["active_order"]
 
+    ## If nothing is provided, previous can order_id or part_number can be referred to 
+    if not order and ctx.get("active_order"):
+        order = ctx["active_order"]
+    if not part and ctx.get("active_part"):
+        part = ctx["active_part"]
+    if not model and ctx.get("active_model"):
+        model = ctx["active_model"]
+
     # Update context when we see new entities
     if part:
         ctx["active_part"] = norm(part)
