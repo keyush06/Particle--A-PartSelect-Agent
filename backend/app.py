@@ -45,7 +45,7 @@ class ChatResponse(BaseModel):
 async def chat(request: ChatRequest):
     print("entered chatpoint")
     try:
-        print("try first")
+        # print("try first")
         session_id = request.session_id or str(uuid.uuid4())
         message = request.message
 
@@ -55,7 +55,7 @@ async def chat(request: ChatRequest):
         # part_number = extract_part_number(message)
         # model_number = extract_model_number(message)
         part_number, model_number, order_id, ctx = resolve_entities(session_id, message)
-        print("@@@@@@The session is this:", ctx)
+        # print("@@@@@@The session is this:", ctx)
         # Reuse session context for follow-ups if the current turn has no explicit entities
         if not order_id and ctx and ctx.get("active_order"):
             order_id = ctx["active_order"]
@@ -64,7 +64,7 @@ async def chat(request: ChatRequest):
         if not model_number and ctx and ctx.get("active_model"):
             model_number = ctx["active_model"]
 
-        print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
+        # print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
 
 
         user_intent = route_intent(message, session_id)
@@ -127,7 +127,7 @@ async def chat(request: ChatRequest):
                 return ChatResponse(session_id=session_id, answer="Order not found.")
             
             prompt = ChatPromptTemplate.from_messages([
-                ("system", "You are a helpful assistant for order queries. Use the provided order metadata to answer the user's question as accurately as possible. If a field is missing, say so."),
+                ("system", "You are a helpful assistant for order queries. Use the provided order metadata to answer the user's question as accurately as possible. If a field is missing, say so without mentioning words like 'metadata' & 'database'. Also, if asked about 'how many orders are there in your database', your output should be 'I am sorry, due to confidentiality, I cannot provide you with that information. Please tell me if you have any specific order ID or Part number that I can look up.'"),
                 ("user", "User question: {question}\nOrder metadata: {metadata}")
             ])
 
