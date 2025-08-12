@@ -94,7 +94,7 @@ const ChatInterface: React.FC = () => {
     <div className="app-shell">
       <header className="header">
         <div className="brand">
-          {/* {logo && <img src={logo} alt="PartSelect" />} */}
+          <img src="/public/partselect.png" alt="PartSelect" style={{ height: 58, width: 58, marginRight: 8 }} />
           <span>PartSelect Assistant</span>
         </div>
         <div className="tagline">{loading ? "Thinking..." : "PartBot"}</div>
