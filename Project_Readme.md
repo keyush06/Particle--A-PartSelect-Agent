@@ -79,7 +79,18 @@ FastAPI needs CORS middleware to handle this, otherwise you'll get 405 errors
 and network errors in the frontend.) 
 
 ---
-## 4) Frontend (React + Vite + TypeScript)
+## 4) Data Ingestion
+####  (this is to simulate the experience)
+- Generate an API key from the Pinecone project where you want to store the data.
+- Ensure you have the following JSON files in the data directory: `parts_data.json` and `transactions_data.json`
+- Add the Pinecone API key to your .env file:
+```
+PINECONE_API_KEY=your_manager_api_key
+```
+- Run the `pc_vdb.py` file to ingest data. **This will create your index and also the namespaces that I have used (products and transactions).**
+   
+
+## 5) Frontend (React + Vite + TypeScript)
 
 I have used NodeJS and there are multiple ways of configuring it on the Ubuntu server. I referred to this link for setting it up on my system, you are free to choose any method but I chose NVM (version manager).
 
@@ -118,7 +129,7 @@ npm i axios uuid
 npm i -D @types/uuid
 ```
 ---
-## 5) Project layout
+## 6) Project layout
 
 ```
 backend/
@@ -143,7 +154,7 @@ requirements.txt
 ```
 ---
 
-## 6) Usage
+## 7) Usage
 
 - Start backend (port 8000).
 - Start frontend (port 5173).
@@ -155,7 +166,7 @@ requirements.txt
 
 ---
 
-## 7) Docker or virtual environment?
+## 8) Docker vs virtual environment?
 
 - Virtual environment:
   - Faster iteration during development on Linux/macOS.
@@ -163,7 +174,7 @@ requirements.txt
 ---
 
 
-## 8) Run with Docker (optional)
+## 9) Run with Docker (optional)
 
 Quick backend container:
 ```bash
@@ -204,7 +215,7 @@ Tip: For multi-service dev, consider docker-compose to wire env and ports togeth
 
 ---
 
-## 9) Troubleshooting
+## 10) Troubleshooting
 
 - CORS issues:
   - Backend allows `http://localhost:5173` and `http://127.0.0.1:5173`. Adjust in `backend/app.py` if needed.
