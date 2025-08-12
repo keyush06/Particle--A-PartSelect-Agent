@@ -1,0 +1,3982 @@
+[
+  {
+    "order_id": "PSO1000",
+    "customer_id": "84634",
+    "created_id": "2025-02-01",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752299",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS11752179",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1001",
+    "customer_id": "79962",
+    "created_id": "2024-11-25",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752563",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1002",
+    "customer_id": "42794",
+    "created_id": "2024-09-03",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752179",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1003",
+    "customer_id": "19443",
+    "created_id": "2025-01-10",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694215",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752801",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752086",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1004",
+    "customer_id": "24383",
+    "created_id": "2024-08-18",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752691",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752722",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752790",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1005",
+    "customer_id": "88752",
+    "created_id": "2025-01-16",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752158",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752460",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694520",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1006",
+    "customer_id": "21377",
+    "created_id": "2025-03-05",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752179",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752547",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694640",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1007",
+    "customer_id": "76901",
+    "created_id": "2024-09-11",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694142",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694346",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752652",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1008",
+    "customer_id": "17430",
+    "created_id": "2025-08-06",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694533",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS8694204",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1009",
+    "customer_id": "12051",
+    "created_id": "2024-09-22",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752179",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694789",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS11752158",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1010",
+    "customer_id": "70546",
+    "created_id": "2024-11-30",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694935",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752546",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1011",
+    "customer_id": "55816",
+    "created_id": "2025-07-30",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752094",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1012",
+    "customer_id": "45750",
+    "created_id": "2024-09-30",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694142",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752394",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1013",
+    "customer_id": "90726",
+    "created_id": "2024-11-13",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694231",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752066",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1014",
+    "customer_id": "79111",
+    "created_id": "2024-09-18",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752722",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694412",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752834",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1015",
+    "customer_id": "61140",
+    "created_id": "2025-03-13",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752152",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1016",
+    "customer_id": "44261",
+    "created_id": "2025-07-06",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694984",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752121",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1017",
+    "customer_id": "43426",
+    "created_id": "2025-04-20",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752834",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752872",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1018",
+    "customer_id": "16485",
+    "created_id": "2025-03-12",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752245",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694015",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS8694567",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1019",
+    "customer_id": "41011",
+    "created_id": "2025-04-01",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752754",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1020",
+    "customer_id": "74998",
+    "created_id": "2024-12-23",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752872",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694069",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1021",
+    "customer_id": "83232",
+    "created_id": "2024-10-05",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752695",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752399",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752349",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1022",
+    "customer_id": "40260",
+    "created_id": "2025-06-13",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752456",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11752110",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1023",
+    "customer_id": "69726",
+    "created_id": "2024-11-20",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752140",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1024",
+    "customer_id": "81742",
+    "created_id": "2024-12-25",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752341",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752990",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752248",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1025",
+    "customer_id": "40454",
+    "created_id": "2025-02-26",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752820",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1026",
+    "customer_id": "96109",
+    "created_id": "2025-06-02",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752349",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1027",
+    "customer_id": "92339",
+    "created_id": "2024-10-20",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752110",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694860",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1028",
+    "customer_id": "51254",
+    "created_id": "2025-01-03",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752048",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1029",
+    "customer_id": "67055",
+    "created_id": "2024-12-18",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694188",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1030",
+    "customer_id": "89321",
+    "created_id": "2025-05-18",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752169",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752455",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS8694430",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1031",
+    "customer_id": "51235",
+    "created_id": "2025-01-28",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752695",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11753014",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752602",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1032",
+    "customer_id": "48171",
+    "created_id": "2025-06-02",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694989",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694510",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS8694495",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1033",
+    "customer_id": "98111",
+    "created_id": "2025-03-26",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752575",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752584",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1034",
+    "customer_id": "76590",
+    "created_id": "2025-04-16",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694808",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1035",
+    "customer_id": "35254",
+    "created_id": "2024-11-10",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694860",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS11752460",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1036",
+    "customer_id": "41732",
+    "created_id": "2024-10-09",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694575",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752735",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752905",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1037",
+    "customer_id": "71982",
+    "created_id": "2024-10-20",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694430",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752651",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1038",
+    "customer_id": "31554",
+    "created_id": "2025-03-02",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694533",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694394",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752424",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1039",
+    "customer_id": "21687",
+    "created_id": "2025-04-29",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752048",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694808",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1040",
+    "customer_id": "78203",
+    "created_id": "2025-03-18",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752146",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1041",
+    "customer_id": "95942",
+    "created_id": "2025-04-25",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694873",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694394",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1042",
+    "customer_id": "56815",
+    "created_id": "2025-06-08",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752439",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752803",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1043",
+    "customer_id": "61983",
+    "created_id": "2025-04-30",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752464",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694984",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1044",
+    "customer_id": "49097",
+    "created_id": "2025-03-13",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752094",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS8694935",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752968",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1045",
+    "customer_id": "48574",
+    "created_id": "2024-09-01",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752814",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11752402",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1046",
+    "customer_id": "29681",
+    "created_id": "2025-04-07",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752999",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752575",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1047",
+    "customer_id": "70312",
+    "created_id": "2025-07-08",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694365",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1048",
+    "customer_id": "30446",
+    "created_id": "2025-01-12",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694215",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694832",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS11752558",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1049",
+    "customer_id": "94229",
+    "created_id": "2024-08-17",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11753016",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752771",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752877",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1050",
+    "customer_id": "23324",
+    "created_id": "2025-04-01",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694686",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752179",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752368",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1051",
+    "customer_id": "98980",
+    "created_id": "2024-12-05",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752456",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694640",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1052",
+    "customer_id": "38740",
+    "created_id": "2024-12-05",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752152",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1053",
+    "customer_id": "39626",
+    "created_id": "2025-02-21",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694531",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752662",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1054",
+    "customer_id": "10894",
+    "created_id": "2025-03-11",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752179",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1055",
+    "customer_id": "36315",
+    "created_id": "2025-01-16",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694096",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS8694879",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1056",
+    "customer_id": "96540",
+    "created_id": "2025-06-17",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752640",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1057",
+    "customer_id": "43444",
+    "created_id": "2024-10-08",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752799",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752196",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1058",
+    "customer_id": "60211",
+    "created_id": "2025-06-19",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694495",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752402",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1059",
+    "customer_id": "53631",
+    "created_id": "2024-10-07",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694789",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1060",
+    "customer_id": "48775",
+    "created_id": "2024-12-03",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752659",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694989",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1061",
+    "customer_id": "62457",
+    "created_id": "2024-11-30",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752094",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1062",
+    "customer_id": "41295",
+    "created_id": "2025-02-20",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752460",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694661",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752197",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1063",
+    "customer_id": "86964",
+    "created_id": "2024-10-24",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752635",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1064",
+    "customer_id": "38122",
+    "created_id": "2025-04-17",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694472",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752139",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694661",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1065",
+    "customer_id": "11776",
+    "created_id": "2024-10-11",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752584",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694830",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1066",
+    "customer_id": "73062",
+    "created_id": "2025-04-23",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752455",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1067",
+    "customer_id": "88613",
+    "created_id": "2024-08-14",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752756",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1068",
+    "customer_id": "28214",
+    "created_id": "2024-09-18",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752528",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752546",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS8694640",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1069",
+    "customer_id": "47692",
+    "created_id": "2024-10-04",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752474",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752900",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752193",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1070",
+    "customer_id": "42348",
+    "created_id": "2025-05-15",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752368",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752406",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1071",
+    "customer_id": "24340",
+    "created_id": "2024-12-09",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752297",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS8694346",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752990",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1072",
+    "customer_id": "45448",
+    "created_id": "2025-06-15",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752408",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752341",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694935",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1073",
+    "customer_id": "32495",
+    "created_id": "2025-06-18",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752456",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694555",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1074",
+    "customer_id": "34442",
+    "created_id": "2024-09-04",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694594",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694860",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752799",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1075",
+    "customer_id": "31638",
+    "created_id": "2025-08-09",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752212",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752299",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1076",
+    "customer_id": "28007",
+    "created_id": "2025-01-24",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752820",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752931",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1077",
+    "customer_id": "54664",
+    "created_id": "2025-07-13",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694642",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694634",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752877",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1078",
+    "customer_id": "31057",
+    "created_id": "2024-12-03",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752399",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1079",
+    "customer_id": "82140",
+    "created_id": "2025-03-24",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752652",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752931",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752968",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1080",
+    "customer_id": "47753",
+    "created_id": "2025-01-27",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694808",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS8694939",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1081",
+    "customer_id": "48389",
+    "created_id": "2024-08-17",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752058",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694370",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1082",
+    "customer_id": "66480",
+    "created_id": "2024-12-10",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694343",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694457",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694580",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1083",
+    "customer_id": "26002",
+    "created_id": "2024-11-03",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752575",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752815",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752546",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1084",
+    "customer_id": "74999",
+    "created_id": "2024-12-03",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694142",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1085",
+    "customer_id": "54896",
+    "created_id": "2025-02-08",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694008",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1086",
+    "customer_id": "68958",
+    "created_id": "2024-11-08",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752314",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1087",
+    "customer_id": "46923",
+    "created_id": "2025-06-07",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752464",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS11752179",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752828",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1088",
+    "customer_id": "22130",
+    "created_id": "2024-09-30",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752834",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1089",
+    "customer_id": "92626",
+    "created_id": "2024-11-15",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752868",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1090",
+    "customer_id": "50815",
+    "created_id": "2025-01-20",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694905",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752464",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1091",
+    "customer_id": "50942",
+    "created_id": "2024-12-02",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694634",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752058",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1092",
+    "customer_id": "66545",
+    "created_id": "2025-01-08",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752522",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752723",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752272",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1093",
+    "customer_id": "44701",
+    "created_id": "2024-11-17",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694640",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752652",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11753030",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1094",
+    "customer_id": "70839",
+    "created_id": "2024-10-18",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11753030",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1095",
+    "customer_id": "12697",
+    "created_id": "2024-09-01",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752142",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11752383",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1096",
+    "customer_id": "72433",
+    "created_id": "2024-10-19",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694244",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752110",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1097",
+    "customer_id": "32634",
+    "created_id": "2025-01-21",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752547",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1098",
+    "customer_id": "52671",
+    "created_id": "2025-01-23",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752271",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1099",
+    "customer_id": "80742",
+    "created_id": "2025-08-09",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752575",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11752329",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1100",
+    "customer_id": "71306",
+    "created_id": "2025-05-08",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752158",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752691",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752575",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1101",
+    "customer_id": "55798",
+    "created_id": "2024-12-10",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752528",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752999",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1102",
+    "customer_id": "13052",
+    "created_id": "2024-12-27",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752429",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1103",
+    "customer_id": "24942",
+    "created_id": "2025-08-02",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752754",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752158",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1104",
+    "customer_id": "21453",
+    "created_id": "2025-03-09",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694626",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1105",
+    "customer_id": "14707",
+    "created_id": "2025-02-24",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752272",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1106",
+    "customer_id": "60080",
+    "created_id": "2024-09-16",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694901",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752345",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1107",
+    "customer_id": "68657",
+    "created_id": "2025-02-12",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694230",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694448",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694799",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1108",
+    "customer_id": "11608",
+    "created_id": "2025-02-27",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694421",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS11752274",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1109",
+    "customer_id": "95175",
+    "created_id": "2025-07-01",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752803",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1110",
+    "customer_id": "97987",
+    "created_id": "2024-11-12",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694412",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS11752814",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1111",
+    "customer_id": "82492",
+    "created_id": "2025-01-09",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752580",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752384",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1112",
+    "customer_id": "84014",
+    "created_id": "2024-09-04",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694738",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1113",
+    "customer_id": "40819",
+    "created_id": "2024-12-27",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694533",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752212",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694354",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1114",
+    "customer_id": "71488",
+    "created_id": "2025-05-08",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752477",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS8694935",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1115",
+    "customer_id": "43494",
+    "created_id": "2025-07-26",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694421",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1116",
+    "customer_id": "99702",
+    "created_id": "2025-06-07",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752383",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1117",
+    "customer_id": "30932",
+    "created_id": "2025-01-18",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752368",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694795",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752585",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1118",
+    "customer_id": "88000",
+    "created_id": "2024-10-06",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694559",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS11752460",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1119",
+    "customer_id": "99010",
+    "created_id": "2025-03-16",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694452",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752635",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1120",
+    "customer_id": "42551",
+    "created_id": "2025-06-05",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694193",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694657",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694142",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1121",
+    "customer_id": "34265",
+    "created_id": "2025-07-01",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694905",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1122",
+    "customer_id": "45588",
+    "created_id": "2025-06-16",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752197",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752083",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1123",
+    "customer_id": "28839",
+    "created_id": "2025-03-30",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752548",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752179",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1124",
+    "customer_id": "34036",
+    "created_id": "2025-05-19",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752390",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1125",
+    "customer_id": "83658",
+    "created_id": "2024-10-12",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752349",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS8694510",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1126",
+    "customer_id": "20347",
+    "created_id": "2025-05-01",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694244",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1127",
+    "customer_id": "83132",
+    "created_id": "2024-12-18",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752498",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752169",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1128",
+    "customer_id": "90249",
+    "created_id": "2025-01-08",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694935",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752059",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752990",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1129",
+    "customer_id": "67191",
+    "created_id": "2025-03-01",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694799",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694832",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS11752460",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1130",
+    "customer_id": "50699",
+    "created_id": "2025-05-19",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752412",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1131",
+    "customer_id": "48868",
+    "created_id": "2025-07-27",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694857",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1132",
+    "customer_id": "75746",
+    "created_id": "2025-01-11",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752248",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752651",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1133",
+    "customer_id": "65371",
+    "created_id": "2025-01-12",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752608",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1134",
+    "customer_id": "67504",
+    "created_id": "2025-02-11",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694626",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1135",
+    "customer_id": "86975",
+    "created_id": "2025-03-18",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8695027",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694481",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752498",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1136",
+    "customer_id": "96915",
+    "created_id": "2025-01-03",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752336",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1137",
+    "customer_id": "12844",
+    "created_id": "2024-12-18",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694970",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1138",
+    "customer_id": "55878",
+    "created_id": "2025-07-28",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694430",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1139",
+    "customer_id": "77067",
+    "created_id": "2025-01-02",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694832",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS8694346",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1140",
+    "customer_id": "41088",
+    "created_id": "2024-09-28",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694952",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694623",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694831",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1141",
+    "customer_id": "35641",
+    "created_id": "2024-12-28",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752900",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS11752401",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694188",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1142",
+    "customer_id": "57717",
+    "created_id": "2025-03-14",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752372",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752703",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1143",
+    "customer_id": "82575",
+    "created_id": "2024-09-21",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752771",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS11752785",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS11752341",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1144",
+    "customer_id": "82862",
+    "created_id": "2025-03-24",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694204",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS8694738",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752879",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1145",
+    "customer_id": "49182",
+    "created_id": "2025-04-10",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752801",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1146",
+    "customer_id": "62699",
+    "created_id": "2025-05-20",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752488",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS8694144",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1147",
+    "customer_id": "20195",
+    "created_id": "2025-03-28",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752372",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1148",
+    "customer_id": "99632",
+    "created_id": "2024-10-02",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752522",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1149",
+    "customer_id": "32708",
+    "created_id": "2025-06-28",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752264",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752575",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694069",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1150",
+    "customer_id": "51578",
+    "created_id": "2025-05-31",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752402",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752401",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1151",
+    "customer_id": "27392",
+    "created_id": "2025-03-31",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752323",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS8694952",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1152",
+    "customer_id": "83539",
+    "created_id": "2024-12-02",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752546",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1153",
+    "customer_id": "15828",
+    "created_id": "2025-05-31",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752372",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694231",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS8694793",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1154",
+    "customer_id": "18568",
+    "created_id": "2025-03-03",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694488",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1155",
+    "customer_id": "99706",
+    "created_id": "2025-02-20",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694496",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1156",
+    "customer_id": "66419",
+    "created_id": "2024-11-23",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752771",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752548",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1157",
+    "customer_id": "56584",
+    "created_id": "2025-07-23",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694412",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11753016",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1158",
+    "customer_id": "14974",
+    "created_id": "2025-06-03",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752820",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694353",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752100",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1159",
+    "customer_id": "50409",
+    "created_id": "2025-07-31",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752424",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1160",
+    "customer_id": "71926",
+    "created_id": "2025-02-12",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752100",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1161",
+    "customer_id": "59644",
+    "created_id": "2024-08-23",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8695027",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS8694783",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS11752384",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1162",
+    "customer_id": "48442",
+    "created_id": "2024-09-14",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694074",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1163",
+    "customer_id": "72678",
+    "created_id": "2025-07-01",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752152",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1164",
+    "customer_id": "15847",
+    "created_id": "2025-02-15",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11753020",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1165",
+    "customer_id": "87967",
+    "created_id": "2024-10-11",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752815",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS8694516",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS11752703",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1166",
+    "customer_id": "76311",
+    "created_id": "2025-03-31",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752735",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752066",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694406",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1167",
+    "customer_id": "81997",
+    "created_id": "2025-06-21",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694686",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS8694832",
+        "qty": 3,
+        "price": 389.97
+      },
+      {
+        "part_number": "PS11752439",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1168",
+    "customer_id": "45455",
+    "created_id": "2025-02-10",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694832",
+        "qty": 2,
+        "price": 259.98
+      },
+      {
+        "part_number": "PS8694763",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752635",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1169",
+    "customer_id": "84750",
+    "created_id": "2025-01-04",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752196",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752140",
+        "qty": 1,
+        "price": 25.99
+      },
+      {
+        "part_number": "PS8694970",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1170",
+    "customer_id": "20258",
+    "created_id": "2025-06-29",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752372",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752158",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694472",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1171",
+    "customer_id": "30918",
+    "created_id": "2025-04-23",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694520",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1172",
+    "customer_id": "55793",
+    "created_id": "2025-04-29",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752652",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS8694935",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752152",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1173",
+    "customer_id": "83899",
+    "created_id": "2025-01-18",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752451",
+        "qty": 3,
+        "price": 137.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1174",
+    "customer_id": "37690",
+    "created_id": "2025-07-14",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694761",
+        "qty": 3,
+        "price": 128.97
+      },
+      {
+        "part_number": "PS11752546",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752722",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1175",
+    "customer_id": "32250",
+    "created_id": "2024-10-03",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752296",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752241",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS8694580",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "San Antonio"
+  },
+  {
+    "order_id": "PSO1176",
+    "customer_id": "48120",
+    "created_id": "2024-11-04",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752832",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS11752048",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1177",
+    "customer_id": "39749",
+    "created_id": "2025-01-13",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694231",
+        "qty": 1,
+        "price": 129.99
+      },
+      {
+        "part_number": "PS11752349",
+        "qty": 2,
+        "price": 91.98
+      },
+      {
+        "part_number": "PS11752094",
+        "qty": 3,
+        "price": 569.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1178",
+    "customer_id": "90535",
+    "created_id": "2025-06-19",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752580",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Phoenix"
+  },
+  {
+    "order_id": "PSO1179",
+    "customer_id": "32326",
+    "created_id": "2025-03-04",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752990",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS8694488",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694396",
+        "qty": 2,
+        "price": 85.98
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1180",
+    "customer_id": "43757",
+    "created_id": "2024-12-07",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752197",
+        "qty": 3,
+        "price": 569.97
+      },
+      {
+        "part_number": "PS11752803",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "San Diego"
+  },
+  {
+    "order_id": "PSO1181",
+    "customer_id": "71296",
+    "created_id": "2025-02-13",
+    "status": "out for delivery",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752248",
+        "qty": 2,
+        "price": 51.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1182",
+    "customer_id": "86482",
+    "created_id": "2024-12-26",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694204",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1183",
+    "customer_id": "22375",
+    "created_id": "2025-03-06",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752383",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694421",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1184",
+    "customer_id": "29518",
+    "created_id": "2025-05-19",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694640",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "San Jose"
+  },
+  {
+    "order_id": "PSO1185",
+    "customer_id": "73272",
+    "created_id": "2024-08-15",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752341",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752394",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS11752756",
+        "qty": 3,
+        "price": 77.97
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1186",
+    "customer_id": "44487",
+    "created_id": "2024-10-09",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752785",
+        "qty": 2,
+        "price": 51.98
+      },
+      {
+        "part_number": "PS8694472",
+        "qty": 2,
+        "price": 259.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1187",
+    "customer_id": "14753",
+    "created_id": "2024-08-19",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752196",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS11752943",
+        "qty": 1,
+        "price": 25.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1188",
+    "customer_id": "92552",
+    "created_id": "2025-05-10",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752936",
+        "qty": 3,
+        "price": 137.97
+      },
+      {
+        "part_number": "PS8694179",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1189",
+    "customer_id": "56352",
+    "created_id": "2025-03-27",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752735",
+        "qty": 1,
+        "price": 45.99
+      }
+    ],
+    "address_city": "New York"
+  },
+  {
+    "order_id": "PSO1190",
+    "customer_id": "86064",
+    "created_id": "2024-12-05",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752877",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS8694575",
+        "qty": 1,
+        "price": 42.99
+      },
+      {
+        "part_number": "PS8694640",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1191",
+    "customer_id": "40113",
+    "created_id": "2024-11-03",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752523",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752771",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752264",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Philadelphia"
+  },
+  {
+    "order_id": "PSO1192",
+    "customer_id": "97343",
+    "created_id": "2024-10-01",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11753010",
+        "qty": 3,
+        "price": 77.97
+      },
+      {
+        "part_number": "PS11752879",
+        "qty": 2,
+        "price": 91.98
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1193",
+    "customer_id": "94295",
+    "created_id": "2025-07-22",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS8694575",
+        "qty": 3,
+        "price": 128.97
+      }
+    ],
+    "address_city": "Austin"
+  },
+  {
+    "order_id": "PSO1194",
+    "customer_id": "68883",
+    "created_id": "2024-10-09",
+    "status": "order_placed",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694905",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Chicago"
+  },
+  {
+    "order_id": "PSO1195",
+    "customer_id": "14954",
+    "created_id": "2025-05-02",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752498",
+        "qty": 2,
+        "price": 379.98
+      },
+      {
+        "part_number": "PS8694763",
+        "qty": 3,
+        "price": 389.97
+      }
+    ],
+    "address_city": "Dallas"
+  },
+  {
+    "order_id": "PSO1196",
+    "customer_id": "11571",
+    "created_id": "2025-03-17",
+    "status": "out for delivery",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS8694316",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694394",
+        "qty": 2,
+        "price": 85.98
+      },
+      {
+        "part_number": "PS8694448",
+        "qty": 1,
+        "price": 129.99
+      }
+    ],
+    "address_city": "Houston"
+  },
+  {
+    "order_id": "PSO1197",
+    "customer_id": "35311",
+    "created_id": "2024-12-08",
+    "status": "shipped",
+    "carrier": "UPS",
+    "items": [
+      {
+        "part_number": "PS11752563",
+        "qty": 2,
+        "price": 379.98
+      }
+    ],
+    "address_city": "Jacksonville"
+  },
+  {
+    "order_id": "PSO1198",
+    "customer_id": "81090",
+    "created_id": "2024-08-19",
+    "status": "order_placed",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752999",
+        "qty": 1,
+        "price": 189.99
+      },
+      {
+        "part_number": "PS8694346",
+        "qty": 1,
+        "price": 42.99
+      }
+    ],
+    "address_city": "Los Angeles"
+  },
+  {
+    "order_id": "PSO1199",
+    "customer_id": "47720",
+    "created_id": "2025-07-30",
+    "status": "shipped",
+    "carrier": "Delivery",
+    "items": [
+      {
+        "part_number": "PS11752635",
+        "qty": 1,
+        "price": 45.99
+      },
+      {
+        "part_number": "PS11752271",
+        "qty": 1,
+        "price": 189.99
+      }
+    ],
+    "address_city": "San Antonio"
+  }
+]
