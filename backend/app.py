@@ -13,7 +13,7 @@ from fastapi.responses import JSONResponse
 from pinecone import Pinecone
 from langchain_openai import OpenAIEmbeddings
 from typing import Dict, Optional
-from backend.utils import norm, resolve_entities, route_intent #get_order_status, cancel_order, initiate_return, route_intent, format_order_answer
+from backend.utils import norm, resolve_entities, route_intent, static_policies #get_order_status, cancel_order, initiate_return, route_intent, format_order_answer
 
 app = FastAPI(title="PartSelect Chat Agent")
 
@@ -56,12 +56,13 @@ async def chat(request: ChatRequest):
         # model_number = extract_model_number(message)
         part_number, model_number, order_id, ctx = resolve_entities(session_id, message)
         print("@@@@@@The session is this:", ctx)
+        print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
+
 
         user_intent = route_intent(message, session_id)
 
         # ======Metadata filter===========
-        print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
-
+        
         ## Building namespaces
         metadata_filter = {}
         if user_intent == "products":
@@ -75,14 +76,14 @@ async def chat(request: ChatRequest):
 
         elif user_intent == "transactions_policy":
             namespace = "transactions"
-            if order_id:
-                metadata_filter["order_id_norm"] = {"$eq": norm(order_id)}
-            elif part_number:
-                metadata_filter["item_part_numbers_norm"] = {"$in": [norm(part_number)]}
+            policies = static_policies()
+            for key, value in policies.items():
+                if key in message.lower():
+                    return ChatResponse(session_id=session_id, answer=value)
 
         elif user_intent == "transactions_order":
             if not order_id:
-                return ChatResponse(session_id=session_id, answer="To help with your order, please provide your Order ID (e.g., PSO1234).")
+                return ChatResponse(session_id=session_id, answer="I might need an Order number here. To help with your order, please provide your Order ID (e.g., PSO1234).")
             msg = message.lower()
             if any(k in msg for k in ["status", "track", "tracking"]):
                 # Use Pinecone for status

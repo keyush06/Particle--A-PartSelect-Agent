@@ -53,14 +53,16 @@ def resolve_entities(session_id, text):
 
 """For routing to the correct namespace. We can add LLM Fallback if the user query is not clear."""
 TXN_ORDER_KWS = {"order", "status", "track", "tracking", "cancel", "return", "refund", "exchange", "city"}
-TXN_POLICY_KWS = {"shipping", "delivery", "policy", "refund policy", "return policy"}
+TXN_POLICY_KWS = {"shipping", "delivery", "policy", "refund policy", "return policy", "cancellation policy", "cancel policy"}
 def route_intent(text: str, session_id: str | None = None) -> str:
     t = text.lower()
-    if any(k in t for k in TXN_ORDER_KWS):
-        return "transactions_order"
+
     if any(k in t for k in TXN_POLICY_KWS):
         return "transactions_policy"
     
+    if any(k in t for k in TXN_ORDER_KWS):
+        return "transactions_order"
+
     if extract_order_id(text):
         return "transactions_order"
     if extract_part_number(text) or extract_model_number(text):
@@ -70,6 +72,14 @@ def route_intent(text: str, session_id: str | None = None) -> str:
         if ctx.get("active_order"):
             return "transactions_order"
     return "products"
+
+def static_policies():
+    policies = {}
+    policies["return policy"] = "You can return most items within 30 days of delivery. Please visit our Returns page for details."
+    policies["cancellation policy"] = "You can cancel your order within 5 hours of placing it. Orders that are out for delivery/shipped cannot be cancelled. Please visit our Cancellations page for details."
+    policies["shipping policy"] = "Shipping times and costs vary by location, however, we offer free shipping on orders over $50. Standard shipping takes 3-5 business days. Please visit our Shipping page for details."
+
+    return policies
 
 # # ----------------- Transaction tools -----------------
 # def _load_txn_data():
