@@ -220,5 +220,6 @@ Tip: For multi-service dev, consider docker-compose to wire env and ports togeth
 - CORS issues:
   - Backend allows `http://localhost:5173` and `http://127.0.0.1:5173`. Adjust in `backend/app.py` if needed.
 
+<img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/973e87e4-cce5-4fce-9814-7f4e011b2668" />
 
 
