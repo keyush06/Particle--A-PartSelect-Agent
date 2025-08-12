@@ -1,17 +1,19 @@
 from fastapi import FastAPI
 from langchain.memory import ConversationBufferMemory
 from pydantic import BaseModel
-from backend.core import build_chain
+from backend.core import build_chain, transactions_search_order
 from fastapi.middleware.cors import CORSMiddleware
 import uuid
 import json
 import os
+from langchain.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
 from pinecone import Pinecone
 from langchain_openai import OpenAIEmbeddings
 from typing import Dict, Optional
-from backend.utils import extract_part_number, extract_model_number, norm, resolve_entities, get_order_status, cancel_order, initiate_return, route_intent, format_order_answer
+from backend.utils import norm, resolve_entities, route_intent #get_order_status, cancel_order, initiate_return, route_intent, format_order_answer
 
 app = FastAPI(title="PartSelect Chat Agent")
 
@@ -53,8 +55,10 @@ async def chat(request: ChatRequest):
         # part_number = extract_part_number(message)
         # model_number = extract_model_number(message)
         part_number, model_number, order_id, ctx = resolve_entities(session_id, message)
+        print("@@@@@@The session is this:", ctx)
 
-        user_intent = route_intent(message)
+        user_intent = route_intent(message, session_id)
+
         # ======Metadata filter===========
         print("====++++&&&===this is our entities=======++++&&&", part_number, model_number, order_id)
 
@@ -80,23 +84,47 @@ async def chat(request: ChatRequest):
             if not order_id:
                 return ChatResponse(session_id=session_id, answer="To help with your order, please provide your Order ID (e.g., PSO1234).")
             msg = message.lower()
-            if "status" in msg or "track" in msg or "tracking" in msg:
-                res = get_order_status(order_id)
-            elif "cancel" in msg:
-                res = cancel_order(order_id)
-            elif "return" in msg or "refund" in msg or "exchange" in msg:
-                res = initiate_return(order_id, part_number=part_number)
-            else:
-                res = get_order_status(order_id)
+            if any(k in msg for k in ["status", "track", "tracking"]):
+                # Use Pinecone for status
+                meta = transactions_search_order(order_id)
+                if meta:
+                    status = meta.get("status", "unknown")
+                    carrier = meta.get("carrier", "the carrier")
+                    city = meta.get("address_city", "your address")
+                    return ChatResponse(session_id=session_id, answer=f"Your order {order_id} is currently {status} with {carrier}, shipping to {city}.")
+                else:
+                    return ChatResponse(session_id=session_id, answer="Order not found.")
+                
+            elif "Cancel" in msg:
+                meta = transactions_search_order(order_id)
+                if meta and meta.get("status") == "order_placed":
+                    return ChatResponse(session_id=session_id, answer=f"Order {order_id} cancellation request submitted.")
+                elif meta:
+                    return ChatResponse(session_id=session_id, answer=f"Order {order_id} cannot be cancelled because status is '{meta.get('status')}'.")
+                else:
+                    return ChatResponse(session_id=session_id, answer="Order not found.")
+                
+            elif any(k in msg for k in ["return", "refund", "exchange"]):
+                meta = transactions_search_order(order_id)
+                if meta:
+                    return ChatResponse(session_id=session_id, answer=f"Return initiated for order {order_id}.")
+                else:
+                    return ChatResponse(session_id=session_id, answer="Order not found.")
 
-            if res.get("ok"):
-                ans = format_order_answer(res, message)
-                return ChatResponse(session_id=session_id, answer=ans)
-            else:
-                return ChatResponse(session_id=session_id, answer=res.get("error") or res.get("message", "Unable to process the request."))
+            ## For all other queries, tool calling is not sufficient hence we use an LLM
+            meta = transactions_search_order(order_id)
+            if not meta:
+                return ChatResponse(session_id=session_id, answer="Order not found.")
             
-        
+            prompt = ChatPromptTemplate.from_messages([
+                ("system", "You are a helpful assistant for order queries. Use the provided order metadata to answer the user's question as accurately as possible. If a field is missing, say so."),
+                ("user", "User question: {question}\nOrder metadata: {metadata}")
+            ])
 
+            llm = ChatOpenAI(model="gpt-4", temperature=0.2)
+            answer = llm.invoke(prompt.format_prompt(question=message, metadata=meta).to_string()).content
+            return ChatResponse(session_id=session_id, answer=answer)
+        
 
         print("====++++&&&===this is our metadata filters=======++++&&&", metadata_filter)
 
@@ -120,8 +148,11 @@ async def chat(request: ChatRequest):
                                                     "filter": metadata_filter or {}
         })
         
+        # Building the chain
         chain = chat_sessions[session_id][namespace]
 
+
+        # ==========================================================================================
         ## Debugging
         # probe_docs = chain.retriever.get_relevant_documents(message)
         # print(f"[probe] docs returned: {len(probe_docs)}")
@@ -144,11 +175,12 @@ async def chat(request: ChatRequest):
         #     except Exception as ex:
         #         print("[probe2] vectorstore check failed:", ex)
 
+        # ==========================================================================================
+
+
         ## Here we get the response
         response = chain.invoke({"question": message})
         # response = chain({"question": message})
-
-        ## printing contexts - remove later
         if "source_documents" in response:
             print("=== RETRIEVED DOCUMENTS ===")
             for doc in response["source_documents"]:
@@ -171,6 +203,8 @@ async def chat(request: ChatRequest):
             answer=f"Internal server error: {str(e)}"
         )
 
+
+"""It is important to serialize all the responses otherwise got recursive errors"""
 def _to_serializable(obj):
     try:
         json.dumps(obj)
@@ -184,6 +218,11 @@ def _to_serializable(obj):
             return [_to_serializable(v) for v in obj]
         return str(obj)
 
+"""
+Call this endpoint to see if you are able to fetch the records directly from the pinecone database.
+Since I am using Langchain, that has its own abstractions, it is important to view the raw output and 
+what goes into the retriever.
+"""
 @app.get("/_debug/pinecone")
 def debug_pinecone(
     q: str = "installation",
@@ -199,7 +238,6 @@ def debug_pinecone(
         index_name = "partselect-parts"
         index = pc.Index(index_name)
 
-        # Namespace stats (optional, converted to plain dict)
         stats = None
         if include_stats:
             raw = index.describe_index_stats(namespace=ns)

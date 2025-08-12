@@ -11,6 +11,12 @@ import yaml
 
 load_dotenv()
 
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+index_name = "partselect-parts"
+pc = Pinecone(api_key=pinecone_api_key)
+index = pc.Index(index_name)
+embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+
 def load_prompt():
     with open("backend/prompt.yaml", "r") as file:
         return yaml.safe_load(file)
@@ -35,7 +41,7 @@ def build_chain(memory = None, filter = None, namespace = "products"):
 
     ## filtering
     print("vector_store.namespace:", getattr(vector_store, "namespace", None))
-    print("FILTER", filter)
+    # print("FILTER", filter)
 
     retriever_kwargs = {"k": 10, "namespace": namespace} # added namespace here
     if filter:
@@ -160,4 +166,27 @@ def build_chain(memory = None, filter = None, namespace = "products"):
     return conv_chain
 
     
+"""
+Code is for the transactions index
+"""
 
+def transactions_search_order(order_id: str):
+    """
+    Search for a specific order in the transactions index.
+    """
+    
+    
+    result = index.query(
+        vector=[0.0] * 1536,
+        top_k=1,
+        namespace = "transactions",
+        include_metadata=True,
+        filter={
+            "order_id_norm": {"$eq": order_id.lower()}
+        }
+
+    )
+    matches = result.get("matches", [])
+    if matches and matches[0].get("metadata"):
+        return matches[0]["metadata"]
+    return None

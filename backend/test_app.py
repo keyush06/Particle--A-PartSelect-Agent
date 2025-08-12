@@ -8,7 +8,7 @@ def test_api():
     response = requests.post(
         "http://localhost:8000/chat",
         json={"session_id": "test-session-1",
-              "message": "Can you tell about the status of order PSO1185"}  # Example question
+              "message": "Can you tell me about my order PSO1121?"}  # Example question
     )
     # print(response)
     # print("response was successful:", response.status_code == 200)
