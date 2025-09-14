@@ -213,6 +213,9 @@ docker run --rm -it -p 5173:5173 partselect-frontend
 
 Tip: For multi-service dev, consider docker-compose to wire env and ports together.
 
+#### Here is my architecture
+<img width="1040" height="582" alt="image" src="https://github.com/user-attachments/assets/c373001a-f04d-4a5a-8d95-8adc5e8a1fac" />
+
 ---
 
 ## 10) Troubleshooting
